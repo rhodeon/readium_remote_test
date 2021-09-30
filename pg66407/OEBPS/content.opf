@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<package xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="id">
+  <metadata>
+    <dc:rights>Public domain in the USA.</dc:rights>
+    <dc:identifier opf:scheme="URI" id="id">http://www.gutenberg.org/66407</dc:identifier>
+    <dc:creator opf:file-as="Hazard, Harry">Harry Hazard</dc:creator>
+    <dc:title>The Scarlet Shoulders; or, The Miner Rangers / Beadle's Pocket Novels No. 77</dc:title>
+    <dc:language xsi:type="dcterms:RFC4646">en</dc:language>
+    <dc:date opf:event="publication">2021-09-28</dc:date>
+    <dc:date opf:event="conversion">2021-09-28T05:00:31.428626+00:00</dc:date>
+    <dc:source>https://www.gutenberg.org/files/66407/66407-h/66407-h.htm</dc:source>
+    <meta name="cover" content="item1"/>
+  </metadata>
+  <manifest>
+    <!--Image: 638 x 1000 size=51498 q=20-->
+    <item href="@public@vhost@g@gutenberg@html@files@66407@66407-h@images@cover.jpg" id="item1" media-type="image/jpeg"/>
+    <item href="pgepub.css" id="item2" media-type="text/css"/>
+    <item href="0.css" id="item3" media-type="text/css"/>
+    <item href="1.css" id="item4" media-type="text/css"/>
+    <!--Chunk: size=82270 Split on p-->
+    <item href="@public@vhost@g@gutenberg@html@files@66407@66407-h@66407-h-0.htm.html" id="cover" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=82037 Split on p-->
+    <item href="@public@vhost@g@gutenberg@html@files@66407@66407-h@66407-h-1.htm.html" id="Page_38" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=81411 Split on h2-->
+    <item href="@public@vhost@g@gutenberg@html@files@66407@66407-h@66407-h-2.htm.html" id="Page_69" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=45425-->
+    <item href="@public@vhost@g@gutenberg@html@files@66407@66407-h@66407-h-3.htm.html" id="c13" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="wrap0000.html" id="coverpage-wrapper" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="coverpage-wrapper" linear="yes"/>
+    <itemref idref="cover" linear="yes"/>
+    <itemref idref="Page_38" linear="yes"/>
+    <itemref idref="Page_69" linear="yes"/>
+    <itemref idref="c13" linear="yes"/>
+  </spine>
+  <guide>
+    <reference type="toc" title="CONTENTS" href="@public@vhost@g@gutenberg@html@files@66407@66407-h@66407-h-0.htm.html#toc"/>
+    <reference type="cover" title="Cover" href="wrap0000.html"/>
+  </guide>
+</package>
